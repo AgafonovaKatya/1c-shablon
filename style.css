@@ -1,0 +1,401 @@
+.topheader {
+    z-index: 99999; 
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 140px; 
+}
+body{
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+/* ЛОГОТИП */
+.logo{
+    display: block;
+    position: absolute;
+    bottom: auto;
+}
+.logo>a>img{
+    height: 60px;
+    margin-top: -10px;
+    padding-right: 10px;
+}
+.logo>a{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    color: #696969;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: initial;
+}
+
+
+/* МЕНЮ */
+.primary-nav-trigger .menu-icon{
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    width: 39px;
+    height: 2px;
+    background-color: black;
+}
+.primary-nav-trigger .menu-icon::before, .primary-nav-trigger .menu-icon::after{
+    display: inline-block;
+    content: '';
+    position: absolute;
+    top: 9px;
+    width: 39px;
+    height: 2px;
+    background-color: black;
+    border: 0px;
+}
+.primary-nav-trigger .menu-icon::before{
+    top: 18px;
+}
+
+.banner{
+    background: url(images/slider.jpg) #696969;
+    background-blend-mode: multiply, normal;
+    display: flex;
+    color: #d6d5d5;
+    align-items: center;
+    min-height: 650px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+.banner h2{
+    font-size: 3rem;
+}
+.banner p{
+    font-size: 2rem;
+}
+
+.scrolldown{
+    position: absolute;
+    left: calc(50%-52px);
+    margin-top: 10%;
+}
+.scrolldown img{
+    margin-bottom: 20px;
+    
+}
+.scrolldown p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.h3{
+    font-size: 38px;
+    text-transform: uppercase;
+    color: black;
+    line-height: initial;
+}
+
+.head_white_content span{
+     background-color:rgb(255, 57, 7);
+     display: inline-block;
+     width: 200px;
+     height: 3px;
+}
+
+.head_white_content{
+    text-align: center;
+    padding: 5%;
+    width: 100%;
+}
+.head_white_content p{
+    padding: 20px 50px 0px;
+    color: #696969;
+    /* margin + rov?*/
+}
+
+/* ПРЕИМУЩЕСТВА */
+.advantage{
+    text-align: center;
+    width: 100%;
+    background: #ebebeb;
+    padding: 30px;
+    margin: 3% 0;
+}
+.advantage h4{
+    font-family: "roboto", "sans-serif"; /* s-s сглаживает углы */
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 5px; /* пространоство между буквами */
+    color: rgb(255, 57, 7);
+}
+.advantage p{
+    color: black;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+/* ИКОНКИ */
+.advantage span{
+    font-size: 70px;
+    color: rgb(255, 57, 7);
+}
+
+/* ПРЕИМУЩЕСТВА */
+.somefutures{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 60px 0px;
+    display: block;
+    width: 100%;
+}
+.somefutures h4{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.head_black_content{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.head_black_content span{
+    display: inline-block;
+    height: 1px;
+    margin: 25px auto 0;
+    background: white;
+}
+.numeral{
+    /* font-size: 60px; */
+    color: white;
+}
+.numeral p{
+    padding: 25px 0 17px;
+    color: white;
+    /* font-size: 17px; */
+    line-height: 100%;
+    width: 100%;
+}
+.numeral h5{
+    padding: 25px;
+    font-family: "roboto", "sans-serif";
+    color: white;
+    text-transform: uppercase;
+    /* font-size: 36px; */
+
+}
+
+.addit-inform{
+    font-size: 22px;
+    margin: 20px;
+}
+
+.price-content-head{
+    background-color: #0e1316;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 40px 0 30px;
+}
+.price-content-head h4{
+    padding-top: 6 px;
+    font-size: 26px;
+}
+.price-content-head p{
+    margin-top: 25px;
+    padding: 0 25;
+    /* font-size: 14px; */
+}
+.price-content-body{
+    background-color: #1f282c;
+    padding: 45px 0 40px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.price-content-body p{
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.price-content-body p span{
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-right: 2px;
+}
+.price-content-body a{
+    background-color: white;
+    font-weight: 50;
+    color: rgb(255, 57, 7);
+    padding: 10px 30px;
+}
+
+.price-content{
+    width: 110%;
+    margin: 5% 0;
+
+}
+
+.price-content:hover{
+    border: 3px solid #fff
+}
+
+.price-content:hover .price-content-body>p>span{
+    color: rgb(255, 57, 7);
+}
+
+/* СОТРУДНИКИ */
+.row .teamslider{
+width: 900px;
+margin: auto;
+
+}
+.sinner1{
+    width: 25%;
+    padding: 5% 5%;
+    background-color: #d6d5d5;
+    min-height: 400px;
+}
+ 
+.sinner1 img{
+
+    width: 25%;
+}
+.sinner15{
+    width: 2%;
+}
+.sinner2{
+    width: 73%;
+    padding: 5%;
+    background: #ebebeb;
+    min-height: 449px;
+}
+.sinner a img{
+    display: inherit; /*позиционнируется относительно род. элемента (тега а)*/
+    width: 20%;
+}
+.sinner a{
+    width: 20%;
+}
+.bxslider .team .bx-wrapper, .bx-pager, .bx-controls-auto{
+position: absolute;
+bottom: 50px;
+width: 100%;
+left: -34%;
+}
+.head_black_content2
+{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.head_black_content2 span{
+    display: inline-block;
+    width: 80px;
+    height: 1px;
+    margin: 25px auto 0;
+    background: #ebebeb;
+}
+.head-white-content h3{
+    margin: 23px;
+}
+.partners
+{
+    background: url(IMAGES/cbanner.jpg) no-repeat center center;
+    background-size: cover;
+    color: #f6f6f6;
+    padding: 30px o;
+}
+.slides
+{
+    display: flex;
+    align-items: center;
+       
+}
+.innerwidth
+{
+    width: 70%;
+    margin: 0 auto;
+
+}
+.map span{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #f15324;
+    font-size: 24px;
+}
+.accordion-open span::before{
+    font-family: 'Linearicons-Free';
+    content: "\e873";
+}
+.accordion-close span::before{
+    font-family: 'Linearicons-Free';
+    content: "\e874";
+}
+footer{
+    margin: 30px;
+    background-color: #f5e7e6;
+}
+footer h4, p{
+    text-align: center;
+}
+/* footer a img{ */
+/* } */
+
+/* ПОРТФОЛИО */
+.clearfix .workportfolio span{
+    background-color:rgb(255, 57, 7);
+    display: inline-block;
+    width: 200px;
+    height: 3px;
+}
+.clearfix .workportfolio{
+    text-align: center;
+}
+.clearfix .workportfolio h3{
+    text-align: center;
+}
+#filters{
+    margin: 1% auto;
+    width: 100%;
+    text-align: center;
+}
+#filters li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+.filter{
+    display: block;
+    color: #3d3d3d;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.clearfix .workportfolio{
+    padding-left: 10%;
+}
+.filter .active{
+    font-weight: 700;
+    color: #3d3d3d;
+    border-bottom: 1px solid #e84c3d;
+}
+#portfoliolist .portfolio{
+    border: none !important;
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    display: none;
+}
+.portfolio img{
+    width: 100%;
+    display: block;
+    position: relative;
+}
